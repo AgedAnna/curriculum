@@ -61,8 +61,8 @@
 <h3>Passos para rodar o projeto localmente</h3>
 <ol>
   <li>Clone o repositório:
-    <pre><code>git clone https://github.com/seu-usuario/curriculo-api.git
-cd curriculo-api
+    <pre><code>git clone https://github.com/AgedAnna/curriculum
+cd curriculum
     </code></pre>
   </li>
   <li>Crie um banco de dados no PostgreSQL:
@@ -83,10 +83,10 @@ spring.jpa.hibernate.ddl-auto=update
 
 <h3>Endpoints</h3>
 <ul>
-  <li><strong>GET</strong> <code>/api/pessoas</code>: Lista todas as pessoas.</li>
-  <li><strong>POST</strong> <code>/api/pessoas</code>: Cria uma nova pessoa.</li>
-  <li><strong>PUT</strong> <code>/api/pessoas/{id}</code>: Atualiza uma pessoa existente.</li>
-  <li><strong>DELETE</strong> <code>/api/pessoas/{id}</code>: Exclui uma pessoa.</li>
+  <li><strong>GET</strong> <code>/api/curriculos</code>: Lista todas as pessoas.</li>
+  <li><strong>POST</strong> <code>/api/curriculos</code>: Cria uma nova pessoa.</li>
+  <li><strong>PUT</strong> <code>/api/curriculos/{id}</code>: Atualiza uma pessoa existente.</li>
+  <li><strong>DELETE</strong> <code>/api/curriculos/{id}</code>: Exclui uma pessoa.</li>
 </ul>
 <p>Exemplos similares para <strong>experiências profissionais</strong>, <strong>educações</strong> e <strong>habilidades</strong>.</p>
 
